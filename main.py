@@ -2,7 +2,10 @@ from transformers import pipeline
 
 def load_model():
     '''Loads and returns Facebook BART model trained on CNN Daily Mail for text summarization.'''
-    model = pipeline("summarization", model="./bart")
+    try:
+        model = pipeline("summarization", model="./bart")
+    except:
+        model = pipeline(model="facebook/bart-large-cnn")
     return model
 
 
