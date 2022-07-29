@@ -4,15 +4,15 @@ from fastapi.templating import Jinja2Templates
 import uvicorn
 
 templates = Jinja2Templates(directory='htmldirectory')
+model = pipeline(model="facebook/bart-large-cnn")
 
-
-def load_model():
-    '''Loads and returns Facebook BART model trained on CNN Daily Mail for text summarization.'''
-    try:
-        model = pipeline("summarization", model="./bart")
-    except:
-        model = pipeline(model="facebook/bart-large-cnn")
-    return model
+# def load_model():
+#     '''Loads and returns Facebook BART model trained on CNN Daily Mail for text summarization.'''
+#     try:
+#         model = pipeline("summarization", model="./bart")
+#     except:
+#         model = pipeline(model="facebook/bart-large-cnn")
+#     return model
 
 
 def summarize_text(text: str, model):
@@ -27,8 +27,7 @@ async def root(request: Request):
     return templates.TemplateResponse("homepage.html", {"request": request})
 
 @app.get("/TextSummary")
-async def realNLP(request: Request, input_text: str):
-    model = load_model()
+async def realNLP(request: Request, input_text: str, model=model):
     results = summarize_text(input_text, model)
     return templates.TemplateResponse("results.html", {"request": request, "results":results})
 
