@@ -3,4 +3,4 @@ Leo Corelli & Rob Baldoni
 
 ## About
 
-For this project we are building a text summarizer, specifically for longer-text documents such as articles, wikipedia pages, etc. 
+For this project we are building a text summarizer, specifically for text documents such as articles, wikipedia pages, etc. 
