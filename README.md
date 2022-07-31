@@ -3,7 +3,7 @@
 
 A cloud-deployed web microservice by Leo Corelli & Rob Baldoni, made for our Duke AIPI 561 Final Project.
 
-[Microservice Website](https://aipi561-finalproj.azurewebsites.net/)
+[Microservice Website](https://leocorelli-text-summarizer.azurewebsites.net/)
 
 <p align="center">  <img src="https://github.com/leocorelli/AIPI561-finalproj/blob/main/images/ArtificialFictionBrain.png" width="400" /> </p>
 
