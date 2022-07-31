@@ -1,6 +1,7 @@
 from transformers import pipeline
 import streamlit as st
 
+@st.cache(allow_output_mutation=True)
 def load_model():
     '''Loads and returns huggingface BART model.'''
     model = pipeline(model="sshleifer/distilbart-cnn-12-6")
