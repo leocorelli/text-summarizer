@@ -3,10 +3,7 @@ import streamlit as st
 
 def load_model():
     '''Loads and returns Facebook BART model trained on CNN Daily Mail for text summarization.'''
-    try:
-        model = pipeline("summarization", model="./bart")
-    except:
-        model = pipeline(model="facebook/bart-large-cnn")
+    model = pipeline(model="sshleifer/distilbart-cnn-12-6")
     return model
 
 
