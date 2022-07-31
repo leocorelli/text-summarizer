@@ -22,8 +22,8 @@ model = load_model()
 st.title("Text Summarizer")
 st.image("./images/ArtificialFictionBrain.png")
 st.write("Image source: https://commons.wikimedia.org/wiki/File:ArtificialFictionBrain.png")
-st.subheader("Project by Leo Corelli & Rob Baldoni")
-text = st.text_area("Please allow ~30 seconds to run :)", placeholder="Paste text here")
+st.subheader("Microservice by Leo Corelli & Rob Baldoni")
+text = st.text_area("Please allow up to 1 minute to run - cloud resources are expensive :)", placeholder="Paste text here")
 
 if text:
     try:
