@@ -22,8 +22,6 @@ st.write("Image source: https://commons.wikimedia.org/wiki/File:ArtificialFictio
 st.subheader("Project by Leo Corelli & Rob Baldoni for AIPI 561")
 text = st.text_area("Text you want to summarize:")
 
-
-
 if text:
     try:
         results = summarize_text(text, model)
