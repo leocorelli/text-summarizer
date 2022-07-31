@@ -1,4 +1,6 @@
 # AIPI 561 Final Project
+[![Python application test with Github Actions](https://github.com/leocorelli/AIPI561-finalproj/actions/workflows/main.yml/badge.svg)](https://github.com/leocorelli/AIPI561-finalproj/actions/workflows/main.yml)
+
 Leo Corelli & Rob Baldoni
 
 [Microservice Website](https://aipi561-finalproj.azurewebsites.net/)
