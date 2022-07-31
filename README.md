@@ -7,6 +7,9 @@ A cloud-deployed web microservice by Leo Corelli & Rob Baldoni, made for our Duk
 
 <p align="center">  <img src="https://github.com/leocorelli/AIPI561-finalproj/blob/main/images/ArtificialFictionBrain.png" width="400" /> </p>
 
+<p align="center">All image credit goes to original author. Image sourced from: https://commons.wikimedia.org/wiki/File:ArtificialFictionBrain.png</p>
+
+
 ## About
 
 For this project we have deployed a machine learning text summarizer to the cloud using Huggingface's Transformers library and Azure App Service. There is a wealth of information on the internet, and we (Rob and Leo) are naturally very curious. We love to read and learn new things. We both frequent wikipedia and other resources to learn more about whatever topics pique our interest on a given day. This can be time consuming. As busy young professionals with degrees in artificial intelligence we set out to find a better way!
