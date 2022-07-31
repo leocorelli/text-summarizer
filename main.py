@@ -2,7 +2,7 @@ from transformers import pipeline
 import streamlit as st
 
 def load_model():
-    '''Loads and returns Facebook BART model trained on CNN Daily Mail for text summarization.'''
+    '''Loads and returns huggingface BART model.'''
     model = pipeline(model="sshleifer/distilbart-cnn-12-6")
     return model
 
