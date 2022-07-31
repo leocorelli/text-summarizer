@@ -1,7 +1,7 @@
 # Text Summarizer
 [![Python application test with Github Actions](https://github.com/leocorelli/AIPI561-finalproj/actions/workflows/main.yml/badge.svg)](https://github.com/leocorelli/AIPI561-finalproj/actions/workflows/main.yml)
 
-A web microservice by Leo Corelli & Rob Baldoni, made for our Duke AIPI 561 Final Project.
+A cloud-deployed web microservice by Leo Corelli & Rob Baldoni, made for our Duke AIPI 561 Final Project.
 
 [Microservice Website](https://aipi561-finalproj.azurewebsites.net/)
 
