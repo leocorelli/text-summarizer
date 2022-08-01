@@ -16,6 +16,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install
+    - name: Lint with pylint
+      run: |
+        make lint
     - name: Format code
       run: |
         make format
