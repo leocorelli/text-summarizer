@@ -7,6 +7,8 @@ A cloud-deployed web microservice by Leo Corelli & Rob Baldoni, made for our Duk
 
 [Demo Video](https://duke.box.com/s/dlggn41z93wljjt4ilio00wkkx46d1qe)
 
+[Load Testing Demo](https://duke.box.com/s/dofbr9wnq1yfshlccpw6cdel99t49rrv)
+
 <p align="center">  <img src="https://github.com/leocorelli/AIPI561-finalproj/blob/main/images/ArtificialFictionBrain.png" width="400" /> </p>
 
 <p align="center">All image credit goes to original author. Image sourced from: https://commons.wikimedia.org/wiki/File:ArtificialFictionBrain.png</p>
