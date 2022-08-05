@@ -41,5 +41,5 @@ if text:
         st.write(f"- Summary length: {results_length} characters")
         st.write(f"- **Reduction in size: {percent_change}%**")
     except:
-        results = '<p style="font-family:serif; color:Red; font-size: 42px;">Input text too long! Please shorten :) Unfortunately, to keep costs down, we have to use a relatively lightweight summarization model that has a limited maximum input length.</p>'
-        st.markdown(results, unsafe_allow_html=True)
+        st.subheader("Input text too long for model. Please try to shorten a little bit :)")
+        st.subheader("Unfortunately, to keep costs down, we have to use a relatively lightweight summarization model that has a limited maximum input length.")
